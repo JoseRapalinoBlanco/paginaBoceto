@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+
+  <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+        aria-controls="staticBackdrop" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">NOTI+</a>
+    </div>
+  </nav>
+
+  <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+    aria-labelledby="staticBackdropLabel">
+    <div class="offcanvas-header">
+      <h1 class="offcanvas-title" id="staticBackdropLabel">Menu</h1>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="text-center">
+        <button class="btn btn-toggle align-items-center rounded collapsed px-5" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+          <h2>Secciones</h2>
+        </button>
+        <div class="collapse" id="collapseExample">
+          <button class="btn btn-toggle align-items-center rounded collapsed mx-4 px-5" type="button">
+            <h4>Colombia</h4>
+          </button>
+          <button class="btn btn-toggle align-items-center rounded collapsed mx-4 px-5" type="button">
+            <h4>Mundo</h4>
+          </button>
+          <button class="btn btn-toggle align-items-center rounded collapsed mx-4 px-5" type="button">
+            <h4>Politica</h4>
+          </button>
+          <button class="btn btn-toggle align-items-center rounded collapsed mx-4 px-5" type="button">
+            <h4>Economia</h4>
+          </button>
+          <button class="btn btn-toggle align-items-center rounded collapsed mx-4 px-5" type="button">
+            <h4>Tecnologia</h4>
+          </button>
+          <button class="btn btn-toggle align-items-center rounded collapsed mx-4 px-5" type="button">
+            <h4>Deportes</h4>
+          </button>
+        </div>
+        <form class="d-flex justify-content-center m-5" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+      <div class="social-icons my-5 text-center">
+        <h3 class="my-5">Síguenos</h3>
+      
+
+        <a href="https://www.facebook.com/UniCartagenaCol" target="_blank"><i class="fab fa-facebook-f fa-lg mx-2"
+          style="color: #3b5998;"></i></a>
+      <a href="https://x.com/uni_cartagena" target="_blank"><i class="fas fa-times-circle fa-lg mx-2"
+          style="color: #000;"></i></a>
+      <a href="https://www.instagram.com/unicartagena?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+        target="_blank"><i class="fab fa-instagram fa-lg mx-2" style="color: #bc2a8d;"></i></a>
+      <a href="https://www.linkedin.com/school/unicartagena/?originalSubdomain=co" target="_blank"><i
+          class="fab fa-linkedin-in fa-lg mx-2" style="color: #0077b5;"></i></a>
+
+        
+        
+
+      </div>
+      <div class="footer-links mt-4 text-center">
+        <h3 class="m-5">Información</h3>
+        <ul class="list-unstyled">
+          <li class="text-center"><a class="nav-link active" href="#">Quienes Somos</a></li>
+          <li class="text-center"><a class="nav-link active" href="#">Términos y Condiciones</a></li>
+          <li class="text-center"><a class="nav-link active" href="#">Política de Privacidad</a></li>
+        </ul>
+      </div>
+      <div class="footer-copyright mt-5 text-center">
+        <p>&copy; 2024 Tu Empresa. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <!-- Aquí van las tarjetas -->
+
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <img src="https://wallpapercave.com/uwp/uwp4235783.jpeg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="title-container">
+              <span class="badge-economia">Economía</span>
+              <h5 class="card-title"><strong>El mundo</strong></h5>
+            </div>
+            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+              has been the industry's standard dummy text ever since the 1500s.</p>
+            <button class="share-btn">Compartir</button>
+            <div class="author-time">
+              <p>Autor: Juan Pérez publicado hace 3 horas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Card 2 -->
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <img src="https://th.bing.com/th/id/OIP.0SGmwJRjKT8BbX7mPzaQ7wHaEK?w=302&h=180&c=7&r=0&o=5&pid=1.7"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="title-container">
+              <span class="badge-economia">Economía</span>
+              <h5 class="card-title"><strong>El mundo</strong></h5>
+            </div>
+            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+              has been the industry's standard dummy text ever since the 1500s.</p>
+            <button class="share-btn">Compartir</button>
+            <div class="author-time">
+              <p>Autor: María López
+                Publicado hace 5 horas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <img
+            src="https://laud.udistrital.edu.co/sites/default/files/imagen-noticia/2023-04/LAUD%20Burger%20Master.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="title-container">
+              <span class="badge-economia">Economía</span>
+              <h5 class="card-title"><strong>El mundo</strong></h5>
+            </div>
+            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+              has been the industry's standard dummy text ever since the 1500s.</p>
+            <button class="share-btn">Compartir</button>
+            <div class="author-time">
+              <p>Autor: Carlos García
+                Publicado hace 2 horas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <img src="https://i.pinimg.com/originals/55/a2/59/55a259e589107b3611947dd886c776e1.jpg" class="card-img-top"
+            alt="...">
+          <div class="card-body">
+            <div class="title-container">
+              <span class="badge-economia">Economía</span>
+              <h5 class="card-title"><strong>El mundo</strong></h5>
+            </div>
+            <p class="card-text">Ambos párrafos destacan el uso continuo de pesticidas químicos y la falta de
+              conocimiento e interés en prácticas ambientales.</p>
+            <button class="share-btn">Compartir</button>
+            <div class="author-time">
+              <p>Autor: Ana Martínez
+                Publicado hace 6 horas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <img
+            src="https://caracol.com.co/resizer/v2/IOZPPHJOK5GS5JL6WCIBL3JO7Y.jpeg?auth=0aa0b41bb841e78990b9d45e8a7399ed932f027e747bb00c12ef78aa22ad421a&width=1440&quality=70&smart=true"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="title-container">
+              <span class="badge-economia">Economía</span>
+              <h5 class="card-title"><strong>¡Incidente Turbaco!</strong></h5>
+            </div>
+            <p class="card-text">Se produjo un incidente en el peaje de Turbaco que causó revuelo en la comunidad local.
+            </p>
+            <button class="share-btn">Compartir</button>
+            <div class="author-time">
+              <p>Autor: Luis Fernández
+                Publicado hace 4 horas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <img
+            src="https://fotografias.lasexta.com/clipping/cmsimages02/2022/01/14/2A1DECCF-E5F4-4C7E-81DB-3892DE022F9E/98.jpg?crop=1120,630,x0,y2&width=1900&height=1069&optimize=low&format=webply"
+            class="card-img-top" alt="Imagen de la noticia">
+          <div class="card-body">
+            <div class="title-container">
+              <span class="badge-economia">Economía</span>
+              <h5 class="card-title"><strong>Últimas noticias</strong></h5>
+            </div>
+            <p class="card-text">Se reporta un aumento en los casos de COVID-19 en la región. Las autoridades están
+              tomando medidas para contener la propagación del virus.</p>
+            <button class="share-btn">Compartir</button>
+            <div class="author-time">
+              <p>Autor: Laura Gómez
+                Publicado hace 7 horas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 7 -->
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <img
+            src="https://cc-prod.scene7.com/is/image/CCProdAuthor/FF-SEO-text-to-image-marquee-mobile-2x?$pjpeg$&jpegSize=100&wid=600"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="title-container">
+              <span class="badge-economia">Economía</span>
+              <h5 class="card-title">Lorem Ipsum Dolor</h5>
+            </div>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus efficitur mauris sed
+              felis dapibus, eget fermentum tortor aliquam.</p>
+            <button class="share-btn">Compartir</button>
+            <div class="author-time">
+              <p>Autor: Jorge Rodríguez
+                Publicado hace 8 horas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <img src="https://definicion.de/wp-content/uploads/2012/01/imagen-vectorial.png" class="card-img-top"
+            alt="...">
+          <div class="card-body">
+            <div class="title-container">
+              <span class="badge-economia">Economía</span>
+              <h5 class="card-title">Lorem Ipsum Dolor</h5>
+            </div>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus efficitur mauris sed
+              felis dapibus, eget fermentum tortor aliquam.</p>
+            <button class="share-btn">Compartir</button>
+            <div class="author-time">
+              <p>Autor: Silvia Ramírez
+                Publicado hace 9 horas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 9 -->
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <img
+            src="https://yt3.googleusercontent.com/PEFYh_11VeuY0T_FlTrAwuN2e5k46c4qLdv4t4p5NABQzWuQ4thRbujKvH0KNi3HB7COEZpHOA=s900-c-k-c0x00ffffff-no-rj"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="title-container">
+              <span class="badge-economia">Economía</span>
+              <h5 class="card-title">Lorem Ipsum Dolor</h5>
+            </div>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus efficitur mauris sed
+              felis dapibus, eget fermentum tortor aliquam.</p>
+            <button class="share-btn">Compartir</button>
+            <div class="author-time">
+              <p>Autor: Andrés Castillo
+                Publicado hace 10 horas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 10 -->
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <img src="https://www.nobbot.com/wp-content/uploads/2023/07/Expandir-imagen-con-IA-01.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="title-container">
+              <span class="badge-economia">Economía</span>
+              <h5 class="card-title">Lorem Ipsum Dolor</h5>
+            </div>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus efficitur mauris sed
+              felis dapibus, eget fermentum tortor aliquam.</p>
+            <button class="share-btn">Compartir</button>
+            <div class="author-time">
+              <p>Autor: Gabriela Torres
+              Publicado hace 11 horas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+  <footer class="bg-body-tertiary text-center py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5>NOTI+</h5>
+          <p>Tu fuente confiable de noticias.</p>
+        </div>
+        <div class="col-md-6">
+          <h5>Síguenos</h5>
+          <div class="social-icons">
+
+
+
+            <a href="https://www.facebook.com/UniCartagenaCol" target="_blank"><i class="fab fa-facebook-f fa-lg mx-2"
+                style="color: #3b5998;"></i></a>
+            <a href="https://x.com/uni_cartagena" target="_blank"><i class="fas fa-times-circle fa-lg mx-2"
+                style="color: #000;"></i></a>
+            <a href="https://www.instagram.com/unicartagena?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              target="_blank"><i class="fab fa-instagram fa-lg mx-2" style="color: #bc2a8d;"></i></a>
+            <a href="https://www.linkedin.com/school/unicartagena/?originalSubdomain=co" target="_blank"><i
+                class="fab fa-linkedin-in fa-lg mx-2" style="color: #0077b5;"></i></a>
+
+
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-12">
+          <p>&copy; 2024 Tu Empresa. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

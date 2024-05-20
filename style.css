@@ -1,0 +1,84 @@
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    padding: 10px;
+    margin: 10px; /* Añade margen a los costados de las tarjetas */
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+.card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.card-body {
+    text-align: center;
+}
+.share-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+.share-btn:hover {
+    background-color: #0056b3;
+}
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Asegura que haya espacio entre el badge y el título */
+    position: relative;
+}
+
+.badge-economia {
+    background-color: #007bff;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 5px;
+    flex-shrink: 0; /* Evita que el badge se reduzca */
+}
+
+.card-title {
+    margin: 0; /* Elimina el margen superior para alinear mejor */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    pointer-events: none; /* Asegura que el título no interfiera con el badge */
+}
+
+.title-container::after {
+    content: "";
+    flex: 1; /* Llena el espacio restante para el posicionamiento */
+}
+
+
+
+.card-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.economia-label {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.card-title {
+    margin-left: 10px;
+}
+.author-time {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    color: #6c757d;
+}
